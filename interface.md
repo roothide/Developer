@@ -111,7 +111,7 @@ fclose(fp);
 
 ```
 
-call a command line tool in bootstrap:
+call a command line tool of bootstrap:
 ```
 #include <unistd.h>
 #include <spawn.h>
