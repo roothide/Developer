@@ -142,7 +142,7 @@ execBootstrapBinary(args);
 
   ## 3. jbrand
 
-  ***this API is used to get the random value of the current jailbreak status in system-wide.***
+  ***this API is used to get the random value of the current jailbreak state in system-wide.***
   ```
 unsigned long long jbrand();
 ```
