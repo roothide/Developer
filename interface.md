@@ -5,7 +5,7 @@
 it has been included in theos, you can use it directly in c/c++/objc/swift-bridging-header. 
 when you compile for rootful/rootless, all APIs in it will become empty stub functions for compatibility.
 
-(if you use xcode, you can configure theos header and library paths in xcode, or you can download roothide's devkit package).
+(if you use xcode, you can configure theos header and library paths in xcode, or you can download [roothide's devkit package](https://github.com/RootHide/libroothide/releases/)).
 
 # RootHide API
 
