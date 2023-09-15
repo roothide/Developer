@@ -1,3 +1,5 @@
+Before reading this, you may also want to know [the difference between rootide and rootless](roothide.md).
+
 # RootHide Header
 ```
 #include <roothide.h>
