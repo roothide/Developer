@@ -32,7 +32,7 @@
    and procursus also provides a large number of useful packages, such as rm/cp/mv/chmod/chown/ldid/ssh/uicache...
 
    unlike rootless uses the original root file system (rootfs) of iOS as the default root,
-   roothide's bootstrap uses jbroot as the default root, and rootide creates a symbolic link named "rootfs" in jbroot to provide bootstrap access to the iOS original root file system.
+   roothide's bootstrap uses jbroot as the default root, and rootide creates a symbolic link named "rootfs" in jbroot to provide bootstrap access to the iOS original root file system. (see [vroot](vroot.md)).
 
    this means that all command line tools in bootstrap will only accept jbroot-based paths, and will only output jbroot-based paths. (and you should also use this path rule in jailbreak plist/config/shell-script files).
 
