@@ -24,7 +24,7 @@
 
 4. Access jailbreak files in code of jailbreak app/daemon/tweak
 
-   roothide provides a uniquely named API to get the root directory path of the current jailbreak, this API can be used anywhere in c/c++/objc/swift, and theos will make it an empty stub via a macro when you compiling for rootful/rootless.
+   roothide provides a [uniquely named API](interface.md) to get the root directory path of the current jailbreak, this API can be used anywhere in c/c++/objc/swift, and theos will automatically make it an empty stub via a macro when you compiling for rootful/rootless.
 
 5. Interact with bootstrap
 
