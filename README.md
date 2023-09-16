@@ -9,7 +9,7 @@
 
     for those simple tweaks that don't use the file api to access jailbreak files, just
 
-    ```make THEOS_PACKAGE_SCHEME=roothide```
+    ```make package THEOS_PACKAGE_SCHEME=roothide```
 
 
 
