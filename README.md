@@ -1,4 +1,4 @@
-# Update your jailbreak apps/tweaks for roothide
+# update jailbreak apps/tweaks for roothide
  
  1. Update theos to the latest
 
@@ -7,9 +7,10 @@
  3. Build package for roothide
 
 
-    for those simple tweaks that don't use the file api to access jailbreak files,
+    for those simple tweaks that don't use the file api to access jailbreak files, just
 
-    just ```make THEOS_PACKAGE_SCHEME=roothide```
+    ```make THEOS_PACKAGE_SCHEME=roothide```
+
 
 
 
