@@ -9,13 +9,13 @@ especially for bootstrap, since it uses jbroot as the default root through [libv
 | :-----|
 | /dev |
 | /private/preboot |
-| /var/run/utmpx |
-| /var/db/timezone |
 | /var/containers |
-| /private/var/mobile/Containers |
+| /var/mobile/Containers |
 | /usr/share/misc/trace.codes |
 | /usr/share/zoneinfo |
 | /etc/hosts.equiv |
 | /etc/hosts |
+| /var/run/utmpx |
+| /var/db/timezone |
 | /System/Library/CoreServices/SystemVersion.plist |
 
