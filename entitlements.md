@@ -35,7 +35,7 @@ but if your jailbreak binary(app) needs to modify(write) any jailbreak file, you
 
 except for /var/ in jbroot, your tweak cannot modify(write) files in other jailbreak directories(even through libSandy). 
 generally your tweak don't need do this, we recommend that you stored all data of jailbreak app/binary/tweak in /var/ in jbroot.
-in sone case if you really need to do this, you can write a daemon to handle it.
+in some case if you really need to do this, you can write a daemon to handle it.
 
 
 # reserved directory in jbroot
