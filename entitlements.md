@@ -1,6 +1,6 @@
 # base entitlements
 
-all binaries of jailbreaks are sandboxed(containerized) by default, 
+all binaries of jailbreak are sandboxed(containerized) by default, 
 and usually you don't want this, so you need to add the following entitlements:
 
 ```
