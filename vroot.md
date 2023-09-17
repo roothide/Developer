@@ -11,6 +11,11 @@ it can fully meet the needs.
 ![text](roothide.png)
 
 
+# path mirror
+
+see [file/directory mirror](filemirror.md).
+
+
 # develop with libvroot
 
 when specifying rootide as the target to compile procursus/bootstrap, 
