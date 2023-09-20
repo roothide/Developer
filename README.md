@@ -14,7 +14,7 @@
 
 if you need to use the file apis to access jailbreak files in source code,
 
-(or in a shell script, or store the file path in config files), please see:
+(or in shell scripts, or store the file path in config files), please see:
 
 - [the difference between rootide and rootless](roothide.md).
 
