@@ -29,47 +29,47 @@ std::string jbroot(std::string path);
 ***examples***
 
 C language:
-```
+<pre>
 #include <unistd.h>
 #include <roothide.h>
 
-FILE* fp = fopen(jbroot("/var/jbconfig.test"), "w+");
+FILE* fp = fopen(<b>jbroot</b>("/var/jbconfig.test"), "w+");
 fwrite(data, size, 1, fp);
 fclose(fp);
-```
+</pre>
 
 Objective-C language:
-```
+<pre>
 #include <Foundation/Foundation.h>
 #include <roothide.h>
 
-NSString* filepath = jbroot("/var/jbconfig.plist");
+NSString* filepath = <b>jbroot</b>("/var/jbconfig.plist");
 NSMutableDictionary* dict = [NSMutableDictionary dictionaryWithContentsOfFile:file];
 dict[@"testkey"] = @"testvalue";
 [dict writeToFile:filepath atomically:YES];
-```
+</pre>
 
 C++ language:
-```
+<pre>
 #include <string>
 #include <fstream>
 #include <roothide.h>
 
-std::fstream  testfile(jbroot("/var/test.config"), std::ios::out);
+std::fstream  testfile(<b>jbroot</b>("/var/test.config"), std::ios::out);
 testfile.write(data, size);
 testfile.close();
-```
+</pre>
 
 exec command of bootstrap:
-```
+<pre>
 #include <unistd.h>
 #include <spawn.h>
 #include <roothide.h>
 
 pid_t pid;
 char* args[] = {"/usr/bin/killall", "-9" "SpringBoard", NULL};
-int ret = posix_spawn(&pid, jbroot(args[0]), NULL, NULL, args, NULL);
-```
+int ret = posix_spawn(&pid, <b>jbroot</b>(args[0]), NULL, NULL, args, NULL);
+</pre>
 
   ## 2. rootfs
   
@@ -90,14 +90,14 @@ std::string rootfs(std::string path);
 ***examples***
 
 store paths to config file:
-```
+<pre>
 #include <unistd.h>
 #include <Foundation/Foundation.h>
 #include <roothide.h>
 
-NSString* filepath = jbroot("/var/jbconfig.plist");
+NSString* filepath = <b>jbroot</b>("/var/jbconfig.plist");
 NSMutableDictionary* dict = [[NSMutableDictionary alloc] init];
-dict[@"path"] = rootfs(filepath);
+dict[@"path"] = <b>rootfs</b>(filepath);
 [dict writeToFile:filepath atomically:YES];
 
 /* ..... */
@@ -107,14 +107,13 @@ dict[@"path"] = rootfs(filepath);
 NSMutableDictionary* dict = [NSMutableDictionary dictionaryWithContentsOfFile:file];
 NSLog(@"saved path = %@ (path based on jbroot)", dict["path"]);
 
-FILE* fp = fopen(jbroot(dict["path"].fileSystemRepresentation), "w+");
+FILE* fp = fopen(<b>jbroot</b>(dict["path"].fileSystemRepresentation), "w+");
 fwrite(data, size, 1, fp);
 fclose(fp);
-
-```
+</pre>
 
 call a command line tool of bootstrap:
-```
+<pre>
 #include <unistd.h>
 #include <spawn.h>
 #include <roothide.h>
@@ -122,7 +121,7 @@ call a command line tool of bootstrap:
 int execBootstrapBinary(char* binary, char** args)
 {
     pid_t pid=0;
-    int ret = posix_spawn(&pid, jbroot(args[0]), NULL, NULL, args, NULL);
+    int ret = posix_spawn(&pid, <b>jbroot</b>(args[0]), NULL, NULL, args, NULL);
     if(ret!=0) return ret;
     int status = -INT_MAX;
     waitpid(pid, &status, 0);
@@ -130,15 +129,15 @@ int execBootstrapBinary(char* binary, char** args)
 }
 
 //convert jbroot based path to rootfs based path
-char* filepath = jbroot("/var/jbconfig.plist");
+char* filepath = <b>jbroot</b>("/var/jbconfig.plist");
 FILE* fp = fopen(filepath, "w+");
 fwrite(data, size, 1, fp);
 fclose(fp);
 
 // convert rootfs based path to jbroot based path and exec rm -f
-char* args = {"/usr/bin/rm", "-f", rootfs(filepath), NULL};
+char* args = {"/usr/bin/rm", "-f", <b>rootfs</b>(filepath), NULL};
 execBootstrapBinary(args);
-```
+</pre>
 
   ## 3. jbrand
 
