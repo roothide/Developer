@@ -2,7 +2,7 @@ Before reading this, you may also want to know [the difference between rootide a
 
 # RootHide Header
 ```
-#include &lt;roothide.h>
+#include <roothide.h>
 ```
 it has been included in theos, you can use it directly in c/c++/objc/swift-bridging-header. 
 when you compile for rootful/rootless, all APIs in it will become empty stub functions for compatibility.
