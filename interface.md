@@ -2,7 +2,7 @@ Before reading this, you may also want to know [the difference between rootide a
 
 # RootHide Header
 ```
-#include <roothide.h>
+#include &lt;roothide.h>
 ```
 it has been included in theos, you can use it directly in c/c++/objc/swift-bridging-header. 
 when you compile for rootful/rootless, all APIs in it will become empty stub functions for compatibility.
@@ -30,8 +30,8 @@ std::string jbroot(std::string path);
 
 C language:
 <pre>
-#include <unistd.h>
-#include <roothide.h>
+#include &lt;unistd.h&gt;
+#include &lt;roothide.h&gt;
 
 FILE* fp = fopen(<b>jbroot</b>("/var/jbconfig.test"), "w+");
 fwrite(data, size, 1, fp);
@@ -40,8 +40,8 @@ fclose(fp);
 
 Objective-C language:
 <pre>
-#include <Foundation/Foundation.h>
-#include <roothide.h>
+#include &lt;Foundation/Foundation.h&gt;
+#include &lt;roothide.h&gt;
 
 NSString* filepath = <b>jbroot</b>("/var/jbconfig.plist");
 NSMutableDictionary* dict = [NSMutableDictionary dictionaryWithContentsOfFile:file];
@@ -51,9 +51,9 @@ dict[@"testkey"] = @"testvalue";
 
 C++ language:
 <pre>
-#include <string>
-#include <fstream>
-#include <roothide.h>
+#include &lt;string&gt;
+#include &lt;fstream&gt;
+#include &lt;roothide.h&gt;
 
 std::fstream  testfile(<b>jbroot</b>("/var/test.config"), std::ios::out);
 testfile.write(data, size);
@@ -62,9 +62,9 @@ testfile.close();
 
 exec command of bootstrap:
 <pre>
-#include <unistd.h>
-#include <spawn.h>
-#include <roothide.h>
+#include &lt;unistd.h&gt;
+#include &lt;spawn.h&gt;
+#include &lt;roothide.h&gt;
 
 pid_t pid;
 char* args[] = {"/usr/bin/killall", "-9" "SpringBoard", NULL};
@@ -91,9 +91,9 @@ std::string rootfs(std::string path);
 
 store paths to config file:
 <pre>
-#include <unistd.h>
-#include <Foundation/Foundation.h>
-#include <roothide.h>
+#include &lt;unistd.h&gt;
+#include &lt;Foundation/Foundation.h>
+#include &lt;roothide.h&gt;
 
 NSString* filepath = <b>jbroot</b>("/var/jbconfig.plist");
 NSMutableDictionary* dict = [[NSMutableDictionary alloc] init];
@@ -114,9 +114,9 @@ fclose(fp);
 
 call a command line tool of bootstrap:
 <pre>
-#include <unistd.h>
-#include <spawn.h>
-#include <roothide.h>
+#include &lt;unistd.h&gt;
+#include &lt;spawn.h&gt;
+#include &lt;roothide.h&gt;
 
 int execBootstrapBinary(char* binary, char** args)
 {
