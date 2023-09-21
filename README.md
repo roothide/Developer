@@ -1,8 +1,10 @@
 # update jailbreak apps/tweaks for roothide
  
- 1. Update theos to the latest
+ 1. Update your theos to the this
 
-    [https://github.com/theos/theos](https://github.com/theos/theos)
+    ```git clone --recursive https://github.com/roothide/theos.git ```
+    
+    this theos is always automatically updated to latest with the upstream.
 
  3. Build package for roothide
 
