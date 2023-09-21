@@ -21,3 +21,12 @@ if you need to use the file apis to access jailbreak files in source code,
 - [entitlements and data sharing via files](entitlements.md).
   
 - [roothide's sdk api and tools](interface.md).
+
+
+# get support
+
+roothide discord server: https://discord.gg/scqCkumAYp
+
+theos dev discord server: https://discord.gg/z4RTnrcbKW
+
+
