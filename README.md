@@ -25,7 +25,7 @@ if you need to use the file apis to access jailbreak files in source code,
 - [roothide's sdk api and tools](interface.md).
 
 
-# get support
+# more info
 
 - roothide discord server: https://discord.gg/scqCkumAYp
 
