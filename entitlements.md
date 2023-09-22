@@ -8,6 +8,10 @@ and usually you don't want this, so you need to add the following entitlements:
 <true/>
 <key>com.apple.private.security.no-sandbox</key>
 <true/>
+<key>com.apple.private.security.storage.AppBundles</key>
+<true/>
+<key>com.apple.private.security.storage.AppDataContainers</key>
+<true/>
 ```
 
 in some cases your binary(app) does need to be sandboxed(containerized), you can explicitly specify the following entitlements:
@@ -17,14 +21,6 @@ in some cases your binary(app) does need to be sandboxed(containerized), you can
 <true/>
 <key>com.apple.private.security.container-required</key>
 <true/>
-```
-
-# file access in jailbreak app/binary
-
-your jailbreak binary/app/tweak can access(read) any jailbreak file by default. 
-but if your jailbreak binary(app) needs to modify(write) any jailbreak file, you need to add the following entitlements:
-
-```
 <key>com.apple.private.security.storage.AppBundles</key>
 <true/>
 <key>com.apple.private.security.storage.AppDataContainers</key>
