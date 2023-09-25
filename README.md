@@ -30,5 +30,3 @@ if you need to use the file apis to access jailbreak files in source code,
 - roothide discord server: https://discord.gg/scqCkumAYp
 
 - theos dev discord server: https://discord.gg/z4RTnrcbKW
-
-- procursus discord server: https://discord.gg/QJDrrAJPDY
