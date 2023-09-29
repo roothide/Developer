@@ -4,6 +4,10 @@
 
     ```git clone --recursive https://github.com/roothide/theos.git ```
     
+    or
+    
+    ```bash -c "$(curl -fsSL https://raw.githubusercontent.com/roothide/theos/master/bin/install-theos)"```
+    
     this theos is always automatically updated to latest with the upstream.
 
  3. Build package for roothide
