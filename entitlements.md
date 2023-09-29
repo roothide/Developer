@@ -29,7 +29,7 @@ in some cases your binary(app) does need to be sandboxed(containerized), you can
 
 # data sharing via file in tweak
 
-except for /var/ in jbroot, your tweak cannot modify(write) files in other jailbreak directories(even through libSandy). 
+except for /var/ in jbroot, your tweak may not be able to modify(write) files in other jailbreak directories(even through libSandy). 
 generally your tweak don't need do this, we recommend that you stored all data of jailbreak app/binary/tweak in /var/ in jbroot.
 in some case if you really need to do this, you can write a daemon to handle it.
 
