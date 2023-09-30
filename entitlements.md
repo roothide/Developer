@@ -14,19 +14,6 @@ and usually you don't want this, so you need to add the following entitlements:
 <true/>
 ```
 
-in some cases your binary(app) does need to be sandboxed(containerized), you can explicitly specify the following entitlements:
-
-```
-<key>platform-application</key>
-<true/>
-<key>com.apple.private.security.container-required</key>
-<true/>
-<key>com.apple.private.security.storage.AppBundles</key>
-<true/>
-<key>com.apple.private.security.storage.AppDataContainers</key>
-<true/>
-```
-
 # data sharing via file in tweak
 
 except for /var/ in jbroot, your tweak may not be able to modify(write) files in other jailbreak directories(even through libSandy). 
