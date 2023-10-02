@@ -148,9 +148,14 @@ unsigned long long jbrand();
 this value will not change until next time we jailbreak, for example we can use it to add to our xpc service name as a suffix, or for other cases.
 
 
-# command line tool
+# Command Line Tool
 
   jbroot/rootfs/jbrand also provided as command line tools for getting/converting paths in shell/scripts in some specific cases.
 
 
+# Mnemonic
+|  API   | Input  | Output |
+|  ----  | ----  | ----  |
+|  jbroot  | a **jbroot**-based path  | a rootfs-based path  |
+|  rootfs  | a **rootfs**-based path  | a jbroot-based path  |
 
