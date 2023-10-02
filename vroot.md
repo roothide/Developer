@@ -18,6 +18,6 @@ see [file/directory mirror](filemirror.md).
 
 # develop with libvroot
 
-when specifying rootide as the target to compile procursus/bootstrap, 
+when specifying roothide as the target to compile procursus/bootstrap, 
 vroot will be applied to all programs/libraries by default, you can exclude specific packages from using vroot (such as those packages written specifically for iOS using objc/swift).
 you can also apply libvroot to your C/C++ programs/modules in theos/xcode.
