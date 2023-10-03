@@ -8,7 +8,7 @@ it can fully meet the needs.
 
 # details
 
-![text](roothide.png)
+![text](vroot.png)
 
 
 # path mirror
