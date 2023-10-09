@@ -7,6 +7,7 @@ especially for bootstrap, since it uses jbroot as the default root through [libv
 
 | path in jbroot |
 | :-----|
+| jbroot |
 | /dev |
 | /private/preboot |
 | /var/containers |
