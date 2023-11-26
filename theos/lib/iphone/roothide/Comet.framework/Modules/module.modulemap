@@ -1,0 +1,22 @@
+//
+//  module.modulemap
+//  Comet
+//
+//  Created by Noah Little on 23/4/2023.
+//
+
+framework module Comet {
+    umbrella header "Comet.h"
+
+    private header "LSApplicationWorkspace.h"
+    private header "UIImage+Icon.h"
+    private header "FBSSystemService.h"
+
+    export *
+    module * { export * }
+}
+
+module Comet.Swift {
+  header "Comet-Swift.h"
+  requires objc
+}

@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  Comet
+
+  Created by Noah Little on 12/4/2023.
+  
+*/
+
+"Respring" = "重啓SpringBoard";
+"Search" = "搜索";
+"Loading_Applications" = "正在加載應用";
+"Select_All" = "全選";
+"Unselect_All" = "取消全選";
+"App" = "應用程式";
+"Apps" = "應用程式";
+"Visible_Application_Group_User" = "使用者應用程式";
+"Visible_Application_Group_System" = "系統應用程式";
+"Visible_Application_Group_AllApps" = "全部應用程式";

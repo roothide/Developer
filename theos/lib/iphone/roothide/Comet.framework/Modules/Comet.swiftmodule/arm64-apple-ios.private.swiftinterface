@@ -1,0 +1,78 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name Comet
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Combine
+@_exported import Comet
+import Foundation
+import Swift
+import SwiftUI
+import UIKit.UIImage
+import UIKit
+import _Concurrency
+import _StringProcessing
+@_exported import __ObjC
+extension Combine.Published where Value : Swift.Decodable, Value : Swift.Encodable {
+  public init(wrappedValue defaultValue: Value, key: Swift.String, registry: Swift.String)
+}
+extension Comet.AppPicker {
+  public enum VisibleApplicationGroup {
+    case user
+    case system
+    case all
+    public static func == (a: Comet.AppPicker.VisibleApplicationGroup, b: Comet.AppPicker.VisibleApplicationGroup) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+extension SwiftUI.Color {
+  public init(hex: Swift.String)
+  public func toHex() -> Swift.String
+}
+extension UIKit.UIColor {
+  convenience public init(hex: Swift.String)
+}
+public struct RespringButton : SwiftUI.View {
+  public init()
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s5Comet14RespringButtonV4bodyQrvp", 0) __
+}
+public struct Respring {
+  public static func execute()
+}
+@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor(unsafe) open class CMViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public func setup<Content>(content: Content) where Content : SwiftUI.View
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension Comet.CMViewController {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func setRootController(_ controller: UIKit.UIViewController?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func setParentController(_ controller: UIKit.UIViewController?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func setSpecifier(_ specifier: Swift.AnyObject?)
+}
+public struct HexColorPicker : SwiftUI.View {
+  public init(selectedColorHex: SwiftUI.Binding<Swift.String>, title: Swift.String)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s5Comet14HexColorPickerV4bodyQrvp", 0) __
+}
+public struct Preferences {
+  public static func setValue<T>(_ value: T, key: Swift.String, registry: Swift.String) throws where T : Swift.Decodable, T : Swift.Encodable
+  public static func value<T>(key: Swift.String, registry: Swift.String, returnType: T.Type) -> T? where T : Swift.Decodable, T : Swift.Encodable
+}
+@_Concurrency.MainActor(unsafe) public struct AppPicker : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public init(selectedAppIdentifier: SwiftUI.Binding<Swift.String>, title: Swift.String, visibleApplicationGroup: Comet.AppPicker.VisibleApplicationGroup = .all)
+  @_Concurrency.MainActor(unsafe) public init(selectedAppIdentifiers: SwiftUI.Binding<[Swift.String]>, title: Swift.String, visibleApplicationGroup: Comet.AppPicker.VisibleApplicationGroup = .all)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s5Comet9AppPickerV4bodyQrvp", 0) __
+}
+extension Comet.AppPicker.VisibleApplicationGroup : Swift.Equatable {}
+extension Comet.AppPicker.VisibleApplicationGroup : Swift.Hashable {}

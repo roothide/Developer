@@ -1,0 +1,11 @@
+framework module CepheiPrefs {
+	umbrella header "CepheiPrefs.h"
+
+	export *
+	module * { export * }
+}
+
+module CepheiPrefs.Swift {
+	header "CepheiPrefs-Swift.h"
+	requires objc
+}

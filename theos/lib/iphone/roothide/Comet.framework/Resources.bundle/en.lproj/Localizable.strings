@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  Comet
+
+  Created by Noah Little on 12/4/2023.
+  
+*/
+
+"Respring" = "Respring";
+"Search" = "Search";
+"Loading_Applications" = "Loading applications";
+"Select_All" = "Select all";
+"Unselect_All" = "Unselect all";
+"App" = "App";
+"Apps" = "Apps";
+"Visible_Application_Group_User" = "User";
+"Visible_Application_Group_System" = "System";
+"Visible_Application_Group_AllApps" = "All apps";
