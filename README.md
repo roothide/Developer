@@ -22,7 +22,7 @@ if you need to use the file apis to access jailbreak files in source code,
 
 (or in shell scripts, or store the file path in config files), please see:
 
-- [the difference between rootide and rootless](roothide.md).
+- [the difference between roothide and legacy rootless](roothide.md).
 
 - [entitlements and data sharing via files](entitlements.md).
   
