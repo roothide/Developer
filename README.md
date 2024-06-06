@@ -22,7 +22,9 @@
     ```
     ***the `jbroot` API can be used in C/C++/Objective-C/Swift and its fully compatible with building rootful/rootless package***
 
-4. For more details about roothide, please refer to
+4. If you want to build your project with Xcode instead of theos, here is the roothide sdk: [devkit.zip](https://github.com/roothide/libroothide/releases/latest)
+
+5. For more details about roothide, please refer to
    
 - [the difference between roothide and legacy rootless](roothide.md).
 
