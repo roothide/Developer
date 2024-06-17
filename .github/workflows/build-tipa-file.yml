@@ -1,0 +1,35 @@
+name: Build TIPA File
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build TIPA file
+        run: npm run build-tipa
+
+      - name: List files in the build directory
+        run: ls -R build
+
+      - name: Upload TIPA file
+        uses: actions/upload-artifact@v2
+        with:
+          name: tipa-file
+          path: build/output/path/to/tipa/file/*.tipa  # Adjust this path based on your build output
