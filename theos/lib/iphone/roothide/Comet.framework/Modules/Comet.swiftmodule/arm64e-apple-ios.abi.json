@@ -8541,105 +8541,105 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/admin\/Documents\/RootHide\/Comet\/Comet\/Preferences\/Published+Preferences.swift",
+      "filePath": "\/Users\/admin\/Documents\/roothide\/Comet\/Comet\/Preferences\/Published+Preferences.swift",
       "kind": "Array",
       "offset": 177,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/RootHide\/Comet\/Comet\/UI\/AppPicker\/AppPicker.ViewModel.swift",
+      "filePath": "\/Users\/admin\/Documents\/roothide\/Comet\/Comet\/UI\/AppPicker\/AppPicker.ViewModel.swift",
       "kind": "Array",
       "offset": 1654,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/RootHide\/Comet\/Comet\/Core\/Copy.swift",
+      "filePath": "\/Users\/admin\/Documents\/roothide\/Comet\/Comet\/Core\/Copy.swift",
       "kind": "StringLiteral",
       "offset": 142,
       "length": 10,
       "value": "\"Respring\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/RootHide\/Comet\/Comet\/Core\/Copy.swift",
+      "filePath": "\/Users\/admin\/Documents\/roothide\/Comet\/Comet\/Core\/Copy.swift",
       "kind": "StringLiteral",
       "offset": 187,
       "length": 8,
       "value": "\"Search\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/RootHide\/Comet\/Comet\/Core\/Copy.swift",
+      "filePath": "\/Users\/admin\/Documents\/roothide\/Comet\/Comet\/Core\/Copy.swift",
       "kind": "StringLiteral",
       "offset": 243,
       "length": 22,
       "value": "\"Loading_Applications\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/RootHide\/Comet\/Comet\/Core\/Copy.swift",
+      "filePath": "\/Users\/admin\/Documents\/roothide\/Comet\/Comet\/Core\/Copy.swift",
       "kind": "StringLiteral",
       "offset": 303,
       "length": 12,
       "value": "\"Select_All\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/RootHide\/Comet\/Comet\/Core\/Copy.swift",
+      "filePath": "\/Users\/admin\/Documents\/roothide\/Comet\/Comet\/Core\/Copy.swift",
       "kind": "StringLiteral",
       "offset": 355,
       "length": 14,
       "value": "\"Unselect_All\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/RootHide\/Comet\/Comet\/Core\/Copy.swift",
+      "filePath": "\/Users\/admin\/Documents\/roothide\/Comet\/Comet\/Core\/Copy.swift",
       "kind": "StringLiteral",
       "offset": 401,
       "length": 5,
       "value": "\"App\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/RootHide\/Comet\/Comet\/Core\/Copy.swift",
+      "filePath": "\/Users\/admin\/Documents\/roothide\/Comet\/Comet\/Core\/Copy.swift",
       "kind": "StringLiteral",
       "offset": 439,
       "length": 6,
       "value": "\"Apps\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/RootHide\/Comet\/Comet\/Core\/Copy.swift",
+      "filePath": "\/Users\/admin\/Documents\/roothide\/Comet\/Comet\/Core\/Copy.swift",
       "kind": "StringLiteral",
       "offset": 478,
       "length": 32,
       "value": "\"Visible_Application_Group_User\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/RootHide\/Comet\/Comet\/Core\/Copy.swift",
+      "filePath": "\/Users\/admin\/Documents\/roothide\/Comet\/Comet\/Core\/Copy.swift",
       "kind": "StringLiteral",
       "offset": 545,
       "length": 34,
       "value": "\"Visible_Application_Group_System\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/RootHide\/Comet\/Comet\/Core\/Copy.swift",
+      "filePath": "\/Users\/admin\/Documents\/roothide\/Comet\/Comet\/Core\/Copy.swift",
       "kind": "StringLiteral",
       "offset": 615,
       "length": 35,
       "value": "\"Visible_Application_Group_AllApps\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/RootHide\/Comet\/Comet\/Core\/Storage+Keys.swift",
+      "filePath": "\/Users\/admin\/Documents\/roothide\/Comet\/Comet\/Core\/Storage+Keys.swift",
       "kind": "StringLiteral",
       "offset": 150,
       "length": 32,
       "value": "\"Comet.Cache.ApplicationProxies\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/RootHide\/Comet\/Comet\/UI\/AppPicker\/Lists\/AppPickerSingleListView.swift",
+      "filePath": "\/Users\/admin\/Documents\/roothide\/Comet\/Comet\/UI\/AppPicker\/Lists\/AppPickerSingleListView.swift",
       "kind": "StringLiteral",
       "offset": 317,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/RootHide\/Comet\/Comet\/UI\/AppPicker\/Lists\/AppPickerMultiListView.swift",
+      "filePath": "\/Users\/admin\/Documents\/roothide\/Comet\/Comet\/UI\/AppPicker\/Lists\/AppPickerMultiListView.swift",
       "kind": "StringLiteral",
       "offset": 318,
       "length": 2,

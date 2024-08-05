@@ -1,15 +1,15 @@
 Before reading this, you may also want to know [the difference between rootide and rootless](roothide.md).
 
-# RootHide Header
+# roothide Header
 ```
 #include <roothide.h>
 ```
 it has been included in theos, you can use it directly in c/c++/objc/swift-bridging-header. 
 when you compile for rootful/rootless, all APIs in it will become empty stub functions for compatibility.
 
-(if you use xcode, you can configure theos header and library paths in xcode, or you can download [roothide's devkit package](https://github.com/RootHide/libroothide/releases/)).
+(if you use xcode, you can configure theos header and library paths in xcode, or you can download [roothide's devkit package](https://github.com/roothide/libroothide/releases/)).
 
-# RootHide API
+# roothide API
 
   ## 1. jbroot
 
