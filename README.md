@@ -18,7 +18,13 @@
     ```
     #include <roothide.h>
     
-    //then using jbroot("/path/to/jb/file") as path to access jailbreak files
+    //then using roothide api to access jailbreak files
+    
+    const char* c_path = jbroot("/path/to/jb/file");
+    
+    NSString* objc_path = jbroot(@"/path/to/jb/file");
+    
+    std::string cpp_path = jbroot(std::string("/path/to/jb/file"));
     ```
     ***the `jbroot` API can be used in C/C++/Objective-C/Swift and its fully compatible with building rootful/rootless package***
 
