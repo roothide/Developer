@@ -22,9 +22,24 @@
     ```
     ***the `jbroot` API can be used in C/C++/Objective-C/Swift and its fully compatible with building rootful/rootless package***
 
-4. If you want to build your project with Xcode instead of theos, here is the roothide sdk: [devkit.zip](https://github.com/roothide/libroothide/releases/latest)
+ 4. Add these `entitlements` to your executable/app to make them work correctly with roothide:
+    ```
+    <key>platform-application</key>
+    <true/>
+    <key>com.apple.private.security.no-sandbox</key>
+    <true/>
+    <key>com.apple.private.security.storage.AppBundles</key>
+    <true/>
+    <key>com.apple.private.security.storage.AppDataContainers</key>
+    <true/>
+    ```
 
-5. For more details about roothide, please refer to
+
+5. If you want to build your project with Xcode instead of theos,  
+   here is the roothide sdk: [devkit.zip](https://github.com/roothide/libroothide/releases/latest)
+
+
+7. For more details about roothide, please refer to
    
 - [the difference between roothide and legacy rootless](roothide.md).
 
