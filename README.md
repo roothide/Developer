@@ -63,7 +63,7 @@
   
 # more info
 
-- roothide discord server: https://discord.gg/scqCkumAYp
+- roothide discord server: https://discord.gg/ZvY2Yjw8GA
 
 - theos dev discord server: https://discord.gg/z4RTnrcbKW
 
