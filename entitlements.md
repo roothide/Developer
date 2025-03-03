@@ -20,6 +20,8 @@ except for /var/ in jbroot, your tweak may not be able to modify(write) files in
 generally your tweak don't need do this, we recommend that you stored all data of jailbreak app/binary/tweak in /var/ in jbroot.
 in some case if you really need to do this, you can write a daemon to handle it.
 
+***also, macho files(executable/framework/dylib) in jbroot:/var/ or jbroot:/tmp/ can not be loaded due to the security mechanism of iOS, you should put them in other directories in jbroot.***
+
 
 # reserved directory in jbroot
 
