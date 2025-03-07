@@ -4,7 +4,7 @@
 
     ```bash -c "$(curl -fsSL https://raw.githubusercontent.com/roothide/theos/master/bin/install-theos)"```
     
-    and its always automatically updated to latest with original one.
+    and it's always automatically synchronized and maintains 100% compatibility with the original theos.
 
  2. Build package for roothide
 
